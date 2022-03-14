@@ -1,64 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
-body{
-  background-color: #333;
+body {
+  background-color: rgb(97, 96, 96);
 }
 /*** Introduction Section ***/
 
-.introduction-section{
+.introduction-section {
   border: 2px solid green;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:center;
-  width: 80%;
+  justify-content: center;
+  width: 100%;
   margin-top: 50px;
   background-color: #fff;
   border-radius: 12px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.profile-fig{
+.profile-fig {
   max-width: 150px;
   width: 100%;
-  margin:10px;
+  margin: 10px;
   border: 2px solid br;
 }
 
-.contact{
+.contact {
   font-weight: 500;
   color: #4f4f4f;
-  line-height:15px;
+  line-height: 15px;
   font-size: 18px;
 }
 
-.name h4{
+.name h4 {
   font-weight: 600;
   color: #4f4f4f;
   font-size: 24px;
 }
 
-.name p{
-  font-weight:500;
+.name p {
+  font-weight: 500;
   color: #828282;
-  line-height:20px;
+  line-height: 20px;
   font-size: 18px;
 }
 
-.profile-fig img{
+.profile-fig img {
   max-width: 150px;
   border-radius: 12px;
 }
 
-.personal-info{
+.personal-info {
   border: 2px solid red;
   margin-left: 10px;
 }
 
-.icon{
+.icon {
   margin-right: 10px;
 }
 
-.about-self{
+.about-self {
   margin-left: 10px;
   margin-top: 20px;
   border: 2px solid yellow;
@@ -67,18 +67,133 @@ body{
   font-size: 18px;
 }
 
-@media only screen and (max-width: 600px){
-  
-  .introduction-section{
+@media only screen and (max-width: 600px) {
+  .introduction-section {
     flex-direction: column;
     text-align: center;
   }
 
-  .profile-fig img{
-    text-align:center;
+  .profile-fig img {
+    text-align: center;
   }
 
-  .profile-fig{
-    max-width:100%;
+  .profile-fig {
+    max-width: 100%;
   }
+}
+
+/***Skills and Hobbies section ***/
+
+.skills {
+  /* background-color: #fff; */
+  border-radius: 12px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  border: 2px solid rgb(213, 123, 138);
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.skills h3{
+  margin-top: 13px;
+  font-weight:700;
+  font-size:24px;
+  color: #4f4f4f;
+}
+
+.skills p{
+  color: #828282;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.skills figcaption{
+  color: #333;
+  font-size:18px;
+  font-weight: 600;
+}
+
+.skill-row {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.skill-icon-col {
+  height: 450px;
+}
+
+.skill-icon {
+  padding: 10px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 12px;
+}
+
+#html-icon {
+  background-color: #e34c26;
+}
+
+#html-icon:hover {
+  box-shadow: 0 0 8px rgba(227, 76, 38, 0.9);
+  cursor: pointer;
+}
+
+#css-icon {
+  background-color: #2565ae;
+}
+
+#css-icon:hover {
+  box-shadow: 0 0 8px rgba(37, 101, 174, 0.9);
+  cursor: pointer;
+}
+
+#js-icon {
+  background-color: rgb(240, 219, 79);
+}
+#js-icon:hover {
+  box-shadow: 0 0 8px rgba(240, 219, 79, 0.9);
+  cursor: pointer;
+}
+
+#wp-icon {
+  background-color: #00749c;
+}
+#wp-icon:hover {
+  box-shadow: 0 0 8px rgba(0, 116, 156, 0.9);
+  cursor: pointer;
+}
+#boot-icon {
+  background-color: #553c7b;
+}
+#boot-icon:hover {
+  box-shadow: 0 0 8px rgba(85, 60, 123, 0.9);
+  cursor: pointer;
+}
+
+.icon-p {
+  margin-top: 25px;
+}
+
+.hobby{
+  border: 2px solid purple;
+  margin-top: 40px;
+}
+
+.hobby-fig {
+  text-align: center;
+  border: 2px solid orange;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hobby-fig img {
+  max-width: 100%;
+  border-radius: 16px;
+}
+
+.hobby-p {
+  text-align: center;
 }
