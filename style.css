@@ -197,3 +197,32 @@ body {
 .hobby-p {
   text-align: center;
 }
+
+
+
+/*** Project Headline ***/
+
+.project-headline{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 70px;
+}
+
+.project-headline h3{
+  margin-bottom:20px;
+}
+
+.project-headline span{
+  border: 1px solid #4f4f4f;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  color: #4f4f4f;
+}
+
+.project-headline span:hover{
+  color: #fff;
+  background-color: #2f80ed;
+  cursor: pointer;
+}
